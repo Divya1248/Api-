@@ -1,0 +1,180 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@media only screen and (min-width: 400px) {
+  #loginBlock {
+    width: 100%;
+  }
+  #loginBlock article {
+    background: #efefef;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+  }
+  #loginBlock .background1 {
+    height: 300px;
+    width: 100%;
+  }
+  #loginBlock .background1 img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  /* login form */
+  #loginBlock .logintemplate {
+    width: 40%;
+    height: 800px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+  }
+
+  #loginBlock .logintemplate .formheader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 70px;
+    border-bottom: 1px solid #efefef;
+    box-shadow: 1px 1px 2px #d8d6d6;
+  }
+  #loginBlock .logintemplate .formheader img {
+    width: 50%;
+    margin: 0 auto;
+    height: 100px;
+  }
+  #loginBlock .logintemplate .formbody {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #loginBlock > .logintemplate > .formbody > img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #loginBlock .logintemplate .formbody .logintitle {
+    color: #20b716;
+    font: normal normal normal 35px;
+    font-size: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: 1;
+  }
+  .formbody .formbx .forminput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .formbody .formbx .forminput .required {
+    color: #d9185f;
+    margin-top: 0px;
+    display: none;
+  }
+  .formbody .formbx .forminput input {
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-weight: 400;
+    border-bottom: 3px solid #efefef;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .formbody .formbx .forminput input::placeholder {
+    color: #20b716;
+    opacity: 1;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+  .formbody .formbx .forminput button {
+    margin-top: 10px;
+    background: #20b716;
+    color: #fff;
+    outline: none;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 19px;
+  }
+  .formbody .formbx .password {
+    display: flex;
+  }
+  .formbody .formbx .password span:nth-child(1) {
+    flex-basis: 50%;
+    justify-content: flex-start;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .formbody .formbx .password span:nth-child(2) {
+    flex-basis: 50%;
+    justify-content: flex-end;
+    color: #d9185f;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+  }
+  .formbody .formbx .password span a {
+    color: #d9185f;
+    text-decoration: none;
+  }
+  .formbody .formbx .sociallogin1 button {
+    margin-top: 10px;
+    background: #4285f4;
+    color: #fff;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+  }
+  .formbody .formbx .sociallogin1 img {
+    width: 27px;
+    height: 28px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    z-index: 2;
+    left: 67px;
+    border-radius: 10px;
+  }
+  .formbody .formbx .sociallogin2 button {
+    margin-top: 10px;
+    background: #1877f2;
+    color: #fff;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+  }
+  .formbody .formbx .sociallogin2 img {
+    width: 31px;
+    height: 30px;
+    left: 66px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+    z-index: 2;
+    border-radius: 10px;
+  }
+}

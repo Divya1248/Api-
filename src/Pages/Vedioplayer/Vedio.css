@@ -1,0 +1,43 @@
+#videoBlock{
+    overflow-x: hidden;
+display: flex;
+background:#efefef;
+/* position: sticky; */
+
+}
+#videoBlock:hover{
+    overflow-x: scroll;
+}
+#videoBlock .Thumbnails{
+width: 200px;
+height: 200px;
+border-radius: 100px;
+background: yellowgreen;
+display: flex;
+
+
+}
+   #videoBlock .Thumbnails:hover{
+    transform: scale(1.1);
+   
+}
+#videoBlock .Thumbnails video{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: fill;
+    
+}
+
+#MusicPlayer article{
+    background: #fff;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MusicPlayer article video{
+    border: 1px solid black;
+    border-radius: 2px;
+}
